@@ -1,0 +1,6 @@
+function contactUs() {
+    document.getElementById("content").innerHTML += 
+                  '<div class="row py-lg-5"> <div class="col-lg-6 col-md-8 mx-auto"> <h1 class="fw-light">Contact Us</h1> </div> </div><div class="container"> <div class="card shadow"> <div class="card-body"> <div class="row"> <div class="col mb-3"> <input type="text" class="form-control" placeholder="First name" aria-label="First name"> </div> <div class="col mb-3"> <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"> </div> <div class="mb-3 col-12"> <label for="exampleFormControlInput1" class="form-label">Email address</label> <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"> </div> <div class="mb-3 col-12"> <label for="exampleFormControlTextarea1" class="form-label">Write something here!</label> <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> </div> </div> <div class="col-12"> <button type="submit" class="btn btn-primary">Submit</button> </div></div> </div> </div>';
+    }
+    
+    export {contactUs};

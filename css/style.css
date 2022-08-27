@@ -1,0 +1,20 @@
+.pizzabg {
+    background: linear-gradient( rgb(165 160 160 / 29%), rgb(0 0 0 / 72%) ) , url(../img/pizza.jpg);
+    background-size: cover;
+}
+
+.aboutpizza {
+    position: absolute;
+    top: 58px;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.whitetext {
+    color: white;
+}
